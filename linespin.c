@@ -1,0 +1,1 @@
+int main(){int b[9];b[4]=1;int a=0;for(int i=0;i<100;i++){if(a>3){a=0;}if(a==0){b[0]=1;b[8]=1;}else{b[0]=0;b[8]=0;}if(a==2){b[2]=1;b[6]=1;}else{b[2]=0;b[6]=0;}if(a==1){b[1]=1;b[7]=1;}else{b[1]=0;b[7]=0;}if(a==3){b[3]=1;b[5]=1;}else{b[3]=0;b[5]=0;}printf("%d%d%d\n",b[0],b[1],b[2]);printf("%d%d%d\n",b[3],b[4],b[5]);printf("%d%d%d\n\n",b[6],b[7],b[8]);a++;Sleep(1000);}return 0;}
